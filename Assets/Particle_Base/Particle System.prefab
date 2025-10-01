@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3876083426831651904
 Transform:
   m_ObjectHideFlags: 0
@@ -4367,7 +4367,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_0: X
+    vectorLabel0_0: Dissolve
     vector0_1:
       serializedVersion: 2
       minMaxState: 0
@@ -4421,7 +4421,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_1: Y
+    vectorLabel0_1: Dissolve Sharpness
     vector0_2:
       serializedVersion: 2
       minMaxState: 0
@@ -4475,7 +4475,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_2: Z
+    vectorLabel0_2: Emissive Power
     vector0_3:
       serializedVersion: 2
       minMaxState: 0
@@ -4529,7 +4529,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_3: W
+    vectorLabel0_3: Soft Particle Factor
     mode1: 2
     vectorComponentCount1: 4
     color1:
@@ -4835,7 +4835,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
+  - {fileID: -876546973899608171, guid: fb3cf96ce40b8d44ca891fdb2ef47008, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
