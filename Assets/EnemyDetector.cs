@@ -19,7 +19,7 @@ public class EnemyDetector : MonoBehaviour
 
             foreach (Collider enemycollider in enemiesInRange)
             {
-                if (enemycollider.gameObject == this)
+                if (enemycollider.gameObject == this.gameObject)
                     continue;
 
                 Vector3 directionToTarget = enemycollider.transform.position - currentPosition;
